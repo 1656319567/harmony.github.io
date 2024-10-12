@@ -72,8 +72,8 @@ importers:
         specifier: 3.3.0
         version: 3.3.0
       instantsearch.js:
-        specifier: 4.74.2
-        version: 4.74.2(algoliasearch@5.6.1)
+        specifier: 4.75.0
+        version: 4.75.0(algoliasearch@5.6.1)
       js-yaml:
         specifier: 4.1.0
         version: 4.1.0
@@ -1132,8 +1132,8 @@ packages:
   instantsearch-ui-components@0.9.0:
     resolution: {integrity: sha512-ugQ+XdPx3i3Sxu+woRo6tPE0Fz/kWd4KblTUfZD1TZZBsm/8qFvcbg5dVBDvXX9v7ntoyugXCzC/XCZMzrSkig==}
 
-  instantsearch.js@4.74.2:
-    resolution: {integrity: sha512-wBRUCfVTeVkv2Ec/v2NGScZUT4LHCxu15U8DaNf9YW9ASfi9vCZACrcAc4sA5HOFsloE5RXr6I9ZrKTrMmGQQQ==}
+  instantsearch.js@4.75.0:
+    resolution: {integrity: sha512-sP2bCNORXb2Bu7IPZdUXmvSOA7JMzZ3iRl1sFsaBu0qP+vs7SclKs9GjkRBxHmJ8GeMfJGGjHuFEIAaiTwEVOA==}
     peerDependencies:
       algoliasearch: '>= 3.1 < 6'
 
@@ -1611,7 +1611,7 @@ packages:
   puppeteer@21.11.0:
     resolution: {integrity: sha512-9jTHuYe22TD3sNxy0nEIzC7ZrlRnDgeX3xPkbS7PnbdwYjl2o/z/YuCrRBwezdKpbTDTJ4VqIggzNyeRcKq3cg==}
     engines: {node: '>=16.13.2'}
-    deprecated: < 22.6.4 is no longer supported
+    deprecated: < 22.8.2 is no longer supported
     hasBin: true
 
   qs@6.9.7:
@@ -3076,7 +3076,7 @@ snapshots:
       hexo-pagination: 4.0.0
       hexo-renderer-pug: 3.0.0
       hexo-util: 3.3.0
-      instantsearch.js: 4.74.2(algoliasearch@5.5.3)
+      instantsearch.js: 4.75.0(algoliasearch@5.5.3)
       js-yaml: 4.1.0
       katex: 0.16.11
       mouse-firework: 0.0.6
@@ -3189,7 +3189,7 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.24.7
 
-  instantsearch.js@4.74.2(algoliasearch@5.5.3):
+  instantsearch.js@4.75.0(algoliasearch@5.5.3):
     dependencies:
       '@algolia/events': 4.0.1
       '@types/dom-speech-recognition': 0.0.1
@@ -3205,7 +3205,7 @@ snapshots:
       qs: 6.9.7
       search-insights: 2.15.0
 
-  instantsearch.js@4.74.2(algoliasearch@5.6.1):
+  instantsearch.js@4.75.0(algoliasearch@5.6.1):
     dependencies:
       '@algolia/events': 4.0.1
       '@types/dom-speech-recognition': 0.0.1
