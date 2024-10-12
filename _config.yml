@@ -3,17 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: ShokaX Can
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: zh-cn
+title: JJ's Zone
+subtitle: 'JJ的小破站'
+description: '太多了不想码'
+keywords: 物联网 小班教学 鸿蒙应用开发 
+author: Mr.Garjay
+language: 
+  - zh-cn
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://1656319567.github.io/harmony.github.io
+url: https://zjj.unitechshowcase.online
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
