@@ -93,8 +93,8 @@ importers:
         specifier: 1.6.39
         version: 1.6.39
       unlazy:
-        specifier: 0.11.3
-        version: 0.11.3
+        specifier: 0.11.8
+        version: 0.11.8
       vue:
         specifier: 3.5.10
         version: 3.5.10(typescript@5.5.2)
@@ -439,8 +439,8 @@ packages:
   '@types/yauzl@2.10.3':
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
 
-  '@unlazy/core@0.11.3':
-    resolution: {integrity: sha512-y/d2UkDjp6Eftp01To8FYXR5V9XxJu2vebHkYUx200d9gsOQ7qd9U+IEgc/9TqVPL7cqRrLqttj0HFb2CEtAjw==}
+  '@unlazy/core@0.11.8':
+    resolution: {integrity: sha512-UHtSS7xFiFO6SOxrpdh3bPPorTiQiBNLif24lyu/llAsAimHILdllwO4Ou997nUtcW+dPB/H+qIxHrF8fu1Zxg==}
 
   '@vue/compiler-core@3.5.10':
     resolution: {integrity: sha512-iXWlk+Cg/ag7gLvY0SfVucU8Kh2CjysYZjhhP70w9qI4MvSox4frrP+vDGvtQuzIcgD8+sxM6lZvCtdxGunTAA==}
@@ -1611,7 +1611,7 @@ packages:
   puppeteer@21.11.0:
     resolution: {integrity: sha512-9jTHuYe22TD3sNxy0nEIzC7ZrlRnDgeX3xPkbS7PnbdwYjl2o/z/YuCrRBwezdKpbTDTJ4VqIggzNyeRcKq3cg==}
     engines: {node: '>=16.13.2'}
-    deprecated: < 22.6.4 is no longer supported
+    deprecated: < 22.8.2 is no longer supported
     hasBin: true
 
   qs@6.9.7:
@@ -1875,8 +1875,8 @@ packages:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
 
-  unlazy@0.11.3:
-    resolution: {integrity: sha512-GyNHIU+sMdKQGO/OLJw7Jb4L1/xBHHvjoSL9lOwFxRGv5N7COmXCc6n6hzTE7YTNs4SB1ff1pyO20WtSMkTKBg==}
+  unlazy@0.11.8:
+    resolution: {integrity: sha512-0kvelG1wAOljB8y1+xQE8XGvIo2DVUhSl9JKC9ZG8wr4hjP7cPuh0S/xF8RPMNNPgyFuzQPagPnNMfbsYX9WOQ==}
 
   unorm@1.6.0:
     resolution: {integrity: sha512-b2/KCUlYZUeA7JFUuRJZPUtr4gZvBh7tavtv4fvk4+KV9pfGiR6CQAQAWl49ZpR3ts2dk4FYkP7EIgDJoiOLDA==}
@@ -2296,7 +2296,7 @@ snapshots:
       '@types/node': 20.14.9
     optional: true
 
-  '@unlazy/core@0.11.3': {}
+  '@unlazy/core@0.11.8': {}
 
   '@vue/compiler-core@3.5.10':
     dependencies:
@@ -3084,7 +3084,7 @@ snapshots:
       theme-shokax-anime: 0.0.7
       theme-shokax-pjax: 0.0.3
       twikoo: 1.6.39
-      unlazy: 0.11.3
+      unlazy: 0.11.8
       vue: 3.5.10(typescript@5.5.2)
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -3976,9 +3976,9 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  unlazy@0.11.3:
+  unlazy@0.11.8:
     dependencies:
-      '@unlazy/core': 0.11.3
+      '@unlazy/core': 0.11.8
 
   unorm@1.6.0: {}
 
