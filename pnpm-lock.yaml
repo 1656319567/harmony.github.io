@@ -72,8 +72,8 @@ importers:
         specifier: 3.3.0
         version: 3.3.0
       instantsearch.js:
-        specifier: 4.74.2
-        version: 4.74.2(algoliasearch@5.6.1)
+        specifier: 4.75.5
+        version: 4.75.5(algoliasearch@5.6.1)
       js-yaml:
         specifier: 4.1.0
         version: 4.1.0
@@ -1132,8 +1132,8 @@ packages:
   instantsearch-ui-components@0.9.0:
     resolution: {integrity: sha512-ugQ+XdPx3i3Sxu+woRo6tPE0Fz/kWd4KblTUfZD1TZZBsm/8qFvcbg5dVBDvXX9v7ntoyugXCzC/XCZMzrSkig==}
 
-  instantsearch.js@4.74.2:
-    resolution: {integrity: sha512-wBRUCfVTeVkv2Ec/v2NGScZUT4LHCxu15U8DaNf9YW9ASfi9vCZACrcAc4sA5HOFsloE5RXr6I9ZrKTrMmGQQQ==}
+  instantsearch.js@4.75.5:
+    resolution: {integrity: sha512-XnplrpnSfFzVtoL7YBKWbf3FPwmjfSFM8BN+nnuRsfzwUwWgb7zQLxh2mRtohUFI9fnA7vAcJlDcmichfYgjmA==}
     peerDependencies:
       algoliasearch: '>= 3.1 < 6'
 
@@ -1611,7 +1611,7 @@ packages:
   puppeteer@21.11.0:
     resolution: {integrity: sha512-9jTHuYe22TD3sNxy0nEIzC7ZrlRnDgeX3xPkbS7PnbdwYjl2o/z/YuCrRBwezdKpbTDTJ4VqIggzNyeRcKq3cg==}
     engines: {node: '>=16.13.2'}
-    deprecated: < 22.6.4 is no longer supported
+    deprecated: < 22.8.2 is no longer supported
     hasBin: true
 
   qs@6.9.7:
@@ -1692,8 +1692,8 @@ packages:
   scheduler@0.19.1:
     resolution: {integrity: sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==}
 
-  search-insights@2.15.0:
-    resolution: {integrity: sha512-ch2sPCUDD4sbPQdknVl9ALSi9H7VyoeVbsxznYz6QV55jJ8CI3EtwpO1i84keN4+hF5IeHWIeGvc08530JkVXQ==}
+  search-insights@2.17.2:
+    resolution: {integrity: sha512-zFNpOpUO+tY2D85KrxJ+aqwnIfdEGi06UH2+xEb+Bp9Mwznmauqc9djbnBibJO5mpfUPPa8st6Sx65+vbeO45g==}
 
   send@0.18.0:
     resolution: {integrity: sha512-qqWzuOjSFOuqPjFe4NOsMLafToQQwBSOEpS+FwEt3A2V3vKubTquT3vmLTQpFgMXp8AlFWFuP1qKaJZOtPpVXg==}
@@ -3076,7 +3076,7 @@ snapshots:
       hexo-pagination: 4.0.0
       hexo-renderer-pug: 3.0.0
       hexo-util: 3.3.0
-      instantsearch.js: 4.74.2(algoliasearch@5.5.3)
+      instantsearch.js: 4.75.5(algoliasearch@5.5.3)
       js-yaml: 4.1.0
       katex: 0.16.11
       mouse-firework: 0.0.6
@@ -3189,7 +3189,7 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.24.7
 
-  instantsearch.js@4.74.2(algoliasearch@5.5.3):
+  instantsearch.js@4.75.5(algoliasearch@5.5.3):
     dependencies:
       '@algolia/events': 4.0.1
       '@types/dom-speech-recognition': 0.0.1
@@ -3203,9 +3203,9 @@ snapshots:
       instantsearch-ui-components: 0.9.0
       preact: 10.22.0
       qs: 6.9.7
-      search-insights: 2.15.0
+      search-insights: 2.17.2
 
-  instantsearch.js@4.74.2(algoliasearch@5.6.1):
+  instantsearch.js@4.75.5(algoliasearch@5.6.1):
     dependencies:
       '@algolia/events': 4.0.1
       '@types/dom-speech-recognition': 0.0.1
@@ -3219,7 +3219,7 @@ snapshots:
       instantsearch-ui-components: 0.9.0
       preact: 10.22.0
       qs: 6.9.7
-      search-insights: 2.15.0
+      search-insights: 2.17.2
 
   ip-address@9.0.5:
     dependencies:
@@ -3785,7 +3785,7 @@ snapshots:
       loose-envify: 1.4.0
       object-assign: 4.1.1
 
-  search-insights@2.15.0: {}
+  search-insights@2.17.2: {}
 
   send@0.18.0:
     dependencies:
