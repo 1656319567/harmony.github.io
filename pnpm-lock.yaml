@@ -93,8 +93,8 @@ importers:
         specifier: 1.6.39
         version: 1.6.39
       unlazy:
-        specifier: 0.11.3
-        version: 0.11.3
+        specifier: 0.12.1
+        version: 0.12.1
       vue:
         specifier: 3.5.10
         version: 3.5.10(typescript@5.5.2)
@@ -441,6 +441,9 @@ packages:
 
   '@unlazy/core@0.11.3':
     resolution: {integrity: sha512-y/d2UkDjp6Eftp01To8FYXR5V9XxJu2vebHkYUx200d9gsOQ7qd9U+IEgc/9TqVPL7cqRrLqttj0HFb2CEtAjw==}
+
+  '@unlazy/core@0.12.1':
+    resolution: {integrity: sha512-FTTu09EuvlX2+Rr7Gwl0SI3WXxHmIMmC9BmuzKVic3yulLiB0Qx6m7HYcDtj/aPeE2OoNHeSw5+KfsF50WAU2A==}
 
   '@vue/compiler-core@3.5.10':
     resolution: {integrity: sha512-iXWlk+Cg/ag7gLvY0SfVucU8Kh2CjysYZjhhP70w9qI4MvSox4frrP+vDGvtQuzIcgD8+sxM6lZvCtdxGunTAA==}
@@ -1611,7 +1614,7 @@ packages:
   puppeteer@21.11.0:
     resolution: {integrity: sha512-9jTHuYe22TD3sNxy0nEIzC7ZrlRnDgeX3xPkbS7PnbdwYjl2o/z/YuCrRBwezdKpbTDTJ4VqIggzNyeRcKq3cg==}
     engines: {node: '>=16.13.2'}
-    deprecated: < 22.6.4 is no longer supported
+    deprecated: < 22.8.2 is no longer supported
     hasBin: true
 
   qs@6.9.7:
@@ -1877,6 +1880,9 @@ packages:
 
   unlazy@0.11.3:
     resolution: {integrity: sha512-GyNHIU+sMdKQGO/OLJw7Jb4L1/xBHHvjoSL9lOwFxRGv5N7COmXCc6n6hzTE7YTNs4SB1ff1pyO20WtSMkTKBg==}
+
+  unlazy@0.12.1:
+    resolution: {integrity: sha512-NdUAiAzZpqYzwCKFPLcFoWqoodwMH3Ka1ETx38ll92ACJQ/r6XhgCdApFd135paNEKKFstU5fiKvqxxd7dPyqg==}
 
   unorm@1.6.0:
     resolution: {integrity: sha512-b2/KCUlYZUeA7JFUuRJZPUtr4gZvBh7tavtv4fvk4+KV9pfGiR6CQAQAWl49ZpR3ts2dk4FYkP7EIgDJoiOLDA==}
@@ -2297,6 +2303,8 @@ snapshots:
     optional: true
 
   '@unlazy/core@0.11.3': {}
+
+  '@unlazy/core@0.12.1': {}
 
   '@vue/compiler-core@3.5.10':
     dependencies:
@@ -3979,6 +3987,10 @@ snapshots:
   unlazy@0.11.3:
     dependencies:
       '@unlazy/core': 0.11.3
+
+  unlazy@0.12.1:
+    dependencies:
+      '@unlazy/core': 0.12.1
 
   unorm@1.6.0: {}
 
